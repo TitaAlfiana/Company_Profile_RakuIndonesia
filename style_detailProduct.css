@@ -1,0 +1,206 @@
+body {
+    background-color: #F2F2F2;
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+}
+
+.routes {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.routes a {
+    color: #2C2C2C;
+}
+
+.img_routes_back {
+    width: 20px;
+}
+
+.img_routes {
+    width: 10px;
+}
+
+.content_detail_product {
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    padding: 40px 80px 40px 80px;
+}
+
+.img_zoom img {
+    width: 500px;
+}
+
+.slide_img_product {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.right_contentDetailProduct {
+    padding: 30px;
+    padding-left: 80px;
+}
+
+.item_img img {
+    width: 100px;
+}
+
+.rating {
+    display: flex;
+    margin-top: 20px;
+}
+
+.numb_rating h4 {
+    font-size: 23px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.img_star {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.img_star img {
+    width: 25px;
+    height: 25px;
+}
+
+.numb_rating {
+    color: black;
+}
+
+.price_detailProduct {
+    margin-top: 20px;
+}
+
+.price_detailProduct h4 {
+    color: #3783C5;
+    font-size: 25px;
+}
+
+.data_property {
+    margin-top: 20px;
+}
+
+.data1_detail_product h5,
+.data2_detail_product h5,
+.data3_detail_product h5 {
+    font-size: 18px;
+    color: #929292;
+}
+
+.list_color {
+    display: flex;
+    flex-direction: row;
+}
+
+.list_color span {
+    width: 15px;
+    border-radius: 100%;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.list_color {
+    margin-top: 15px;
+}
+
+.color1 {
+    background-color: #000;
+}
+
+.color2 {
+    background-color: #C8A901;
+
+}
+
+.color3 {
+    background-color: #cb2106;
+}
+
+.color4 {
+    background-color: #ffffff;
+    border: 1px solid #000;
+
+}
+
+.data2_detail_product,
+.data3_detail_product {
+    margin-top: 30px;
+}
+
+.container-size {
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #929292;
+    text-align: center;
+
+}
+
+.container-size a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+
+}
+
+.btn_kuantitas {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_kuantitas span {
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid #929292;
+}
+
+.btn_kuantitas button {
+    background-color: #929292;
+    color: #fff;
+    font-weight: 800;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+}
+
+.container_kuantitas {
+    display: flex;
+    gap: 10px;
+}
+
+.stok_tersedia {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.stok_tersedia h5 {
+    color: #000;
+    font-size: 18px;
+}
+
+.data4_detail_product {
+    margin-top: 50px;
+}
+
+.data4_detail_product button {
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    background-color: #2C2C2C;
+    font-size: 18px;
+    font-weight: 400;
+}

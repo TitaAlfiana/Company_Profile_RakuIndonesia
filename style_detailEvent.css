@@ -1,0 +1,131 @@
+body {
+    background-color: #F2F2F2;
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+}
+
+.routes {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.routes a {
+    color: #2C2C2C;
+}
+
+.img_routes_back {
+    width: 20px;
+}
+
+.img_routes {
+    width: 10px;
+}
+
+.descrip_event {
+    padding-right: 50px;
+}
+
+.title_detail_event h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.title_detail_event span {
+    padding: 10px;
+    background-color: #720705;
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.container_detail_Event {
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.background_abu {
+    width: 100%;
+    height: 350px;
+    padding-top: 80px;
+    padding-left: 600px;
+    justify-content: center;
+    color: #000000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: rgb(20, 20, 20);
+    background: linear-gradient(90deg, rgba(20, 20, 20, 1) 2%, rgba(111, 111, 111, 1) 22%, rgba(140, 140, 140, 1) 33%, rgba(173, 173, 173, 1) 43%, rgba(220, 220, 220, 1) 59%, rgba(238, 238, 238, 1) 69%, rgba(238, 238, 238, 1) 75%, rgba(255, 255, 255, 1) 83%);
+}
+
+.title_detail_event {
+    justify-content: center;
+    width: 600px;
+}
+
+.inikontennya {
+    background-color: #fff;
+    justify-content: center;
+}
+
+.descrip_detail {
+    padding-top: 20px;
+    padding-left: 600px;
+    padding-bottom: 90px;
+}
+
+.img_poster_event {
+    width: fit-content;
+    position: absolute;
+    top: 70px;
+    left: 230px;
+}
+
+.img_poster_event img {
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.locat_event {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.locat_event img {
+    width: 20px;
+}
+
+.sosmed {
+    margin-top: 20px;
+}
+
+.shopee_store,
+.tiktok_store,
+.tokopedia_store {
+    display: flex;
+    gap: 50px;
+}
+
+.desc_store {
+    display: flex;
+    gap: 10px;
+}
+
+.logo_sosmed img {
+    width: 20px;
+}
+
+.sosmed a {
+    text-decoration: none;
+    color: #000000;
+}

@@ -1,0 +1,102 @@
+body {
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+}
+
+.galeri_section {
+    padding: 20px;
+    background: rgb(146, 146, 146);
+    background: linear-gradient(180deg, rgba(146, 146, 146, 1) 32%, rgba(44, 44, 44, 1) 78%);
+    display: flex;
+    flex-direction: row;
+}
+
+.leftcontent_galeri {
+    width: 50%;
+    padding: 30px;
+    color: #fff;
+}
+
+.leftcontent_galeri p {
+    margin-top: 30px;
+}
+
+.desc_content {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.button3 {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.rightcontent_galeri {
+    justify-content: center;
+    text-align: center;
+}
+
+.slide_galeri {
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+.img_galeri img {
+    width: 800px;
+}
+
+.nextgaleri {
+    right: 14px;
+}
+
+.prevgaleri {
+    left: 14px;
+}
+
+.prevgaleri,
+.nextgaleri {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}
+
+.prevgaleri img,
+.nextgaleri img {
+    width: 30px;
+}
+
+.dropdown_content_galeri {
+    display: flex;
+    gap: 20px;
+    padding: 50px 45px 20px 45px;
+}
+
+.line {
+    width: 1100px;
+    border-bottom: 1px solid #2C2C2C;
+}
+
+.button_dropdown_galeri button {
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+
+}
+
+.dropdown_galeri {
+    display: block;
+    cursor: pointer;
+
+}
+
+.content_img_galeri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 50px 45px 20px 45px;
+}

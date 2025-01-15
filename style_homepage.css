@@ -1,0 +1,716 @@
+body {
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+}
+
+
+.navbar {
+    display: grid;
+    grid-template-columns: 2.5fr 5fr 1fr;
+    justify-content: center;
+    background-color: #fff;
+    gap: 30px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+#cart img,
+#search img {
+    border: none;
+    text-decoration: none;
+    width: 30px;
+    cursor: pointer;
+}
+
+#cart,
+#search {
+    padding-right: 30px;
+}
+
+
+/* .logo-container {
+    position: absolute;
+    left: 40px;
+} */
+
+
+.logo-img img {
+    width: 160px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.nav li a {
+    display: block;
+    font-size: 18px;
+    font-weight: 300px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav li a:hover {
+    color: rgb(116, 116, 116);
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 3px;
+    border-radius: 50px;
+    background: #1b1a1a;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.search-bar {
+    display: none;
+}
+
+button {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+/* .formSearch {
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 50px;
+} */
+
+/* .buttonSearch {
+    border: none;
+    background-color: #fff;
+    margin-left: 10px;
+} */
+
+.hamburger {
+    position: absolute;
+    display: none;
+    right: 10px;
+}
+
+.icon-hamburger {
+    border: none;
+    background-color: #fff;
+    font-size: 30px;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-content {
+    margin: 130px 200px 30px 50px;
+}
+
+.hero {
+    width: 650px;
+    height: auto;
+}
+
+.img_responsif {
+    display: none;
+}
+
+.title-header-text {
+    font-size: 36px;
+}
+
+.description-header-text {
+    margin-top: 30px;
+    margin-right: 100px;
+    font-size: 18px;
+}
+
+.count-content {
+    display: flex;
+    gap: 50px;
+    margin-top: 90px;
+}
+
+.number-content {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 80px;
+    background-color: #2C2C2C;
+    background-image: linear-gradient(0deg, rgba(158, 158, 158, 1) 0%, rgba(0, 0, 0, 1) 35%);
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.number-content span {
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.desc-content {
+    width: 150px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7 {
+    margin-top: 200px;
+}
+
+.slide_keunggulan {
+    background-color: #2C2C2C;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+
+}
+
+.title_keunggulan {
+    color: #fff;
+}
+
+.list_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.desc_keunggulan {
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+    width: 200px;
+}
+
+.item {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.item img {
+    width: 55px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}
+
+.next {
+    right: 40px;
+}
+
+.prev {
+    left: 40px;
+}
+
+.unggul_Slide,
+.slide_listProduct {
+    display: none;
+}
+
+.prev img,
+.next img {
+    width: 30px;
+}
+
+.color_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.color_product span {
+    width: 10px;
+    border-radius: 100%;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.slide_product {
+    padding: 30px;
+    position: relative;
+}
+
+.desc_product {
+    padding: 20px;
+}
+
+.image_product img {
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card_product {
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+    /* box-shadow: 3px 3px 4px #888888; */
+    border: 0.5px solid #c8c7c7;
+    position: relative;
+
+}
+
+.color_product {
+    margin-top: 15px;
+}
+
+.color1 {
+    background-color: #000;
+}
+
+.color2 {
+    background-color: #C8A901;
+
+}
+
+.color3 {
+    background-color: #cb2106;
+}
+
+.color4 {
+    background-color: #ffffff;
+    border: 1px solid #000;
+
+}
+
+.mini_title,
+.main_title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title_product {
+    color: #000;
+
+}
+
+.slide_product {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.list_product {
+    padding-top: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.price_product,
+.mini_title {
+    color: #929292;
+}
+
+
+.rating_product {
+    display: flex;
+    flex-direction: row;
+    background-color: #2C2C2C;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.button1 {
+    margin-top: 80px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.button_detail {
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2C2C2C;
+    color: #fff;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.event_section {
+    position: relative;
+}
+
+.leftcontent_event {
+    width: 50%;
+}
+
+.event_content {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: #2C2C2C;
+}
+
+.imgEvent {
+    position: absolute;
+    bottom: 0px;
+    width: 700px;
+}
+
+.rightcontent_event {
+    color: #fff;
+    width: 600px;
+    padding-left: 30px;
+}
+
+.title_event {
+    margin-bottom: 30px;
+}
+
+.button2 {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.button_hubungi {
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.galeri_section {
+    padding: 20px;
+    background: rgb(146, 146, 146);
+    background: linear-gradient(180deg, rgba(146, 146, 146, 1) 32%, rgba(44, 44, 44, 1) 78%);
+    display: flex;
+    flex-direction: row;
+}
+
+.leftcontent_galeri {
+    width: 50%;
+    padding: 30px;
+    color: #fff;
+}
+
+.leftcontent_galeri p {
+    margin-top: 30px;
+}
+
+.desc_content {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.button3 {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.rightcontent_galeri {
+    justify-content: center;
+    text-align: center;
+}
+
+.slide_galeri {
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+.img_galeri img {
+    width: 800px;
+}
+
+.nextgaleri {
+    right: 14px;
+}
+
+.prevgaleri {
+    left: 14px;
+}
+
+.prevgaleri,
+.nextgaleri {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+}
+
+.prevgaleri img,
+.nextgaleri img {
+    width: 30px;
+}
+
+.testimoni_session {
+    display: none;
+}
+
+
+
+.slide_testimoni {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.title_testioni,
+.title_partner {
+    text-align: center;
+}
+
+.card_testimoni {
+    width: 450px;
+}
+
+.desc_user {
+    background-color: #2C2C2C;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 5px;
+}
+
+.detail_user {
+    display: flex;
+    flex-direction: row;
+}
+
+.username {
+    color: #fff;
+}
+
+.img_user,
+.username {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.img_user img {
+    width: 60px;
+}
+
+.desc_testimoni {
+    padding: 10px;
+    border: 1px solid #2C2C2C;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.dot,
+.dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover,
+.dot2:hover {
+    background-color: #2C2C2C;
+}
+
+.slide_listProduct {
+    animation-name: slide-in;
+    animation-duration: 1.0s;
+}
+
+@keyframes slide-in {
+    from {
+        translate: 100vw 0;
+        scale: 120% 1;
+    }
+
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+.img_galeri {
+    animation: slide-galeri;
+    animation-duration: 2.0s;
+}
+
+@keyframes slide-galeri {
+    from {
+        opacity: .2
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.logo_slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 68px;
+}
+
+.partner_img {
+    display: none;
+}
+
+.logo_slide {
+    margin-top: 20px;
+
+}
+
+.about_content {
+    display: flex;
+}
+
+.rightcontent_about {
+    background-color: #2C2C2C;
+    color: #fff;
+}
+
+.cont_content {
+    padding: 40px;
+}
+
+.address1,
+.address2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.img_map img {
+    width: 20px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.footer_content {
+    background-color: #2C2C2C;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_rakuin img {
+    width: 200px;
+}
+
+.descrip_rakuin {
+    margin-top: 50px;
+}
+
+.address1_rakuin,
+.address2_rakuin,
+.cp1_rakuin,
+.cp2_rakuin {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer_nav li a {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer_nav {
+    list-style-type: none;
+    list-style: none;
+}
+
+.footer_nav li {
+    margin-bottom: 20px;
+}
+
+.betweencontent_footr {
+    margin-top: 80px;
+    padding-left: 70px;
+
+}
+
+.rightcontent_footr {
+    margin-top: 80px;
+    padding-left: 90px;
+    color: #fff
+}
+
+.sosmed_footer {
+    font-size: 20px;
+}
+
+.mix_sosmed {
+    display: flex;
+    gap: 50px;
+}
+
+.cp_everypage {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    background-color: none;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img_cpeverypage img {
+    width: 55px;
+}

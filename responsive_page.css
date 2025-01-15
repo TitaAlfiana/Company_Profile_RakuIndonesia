@@ -1,0 +1,105 @@
+/* Medium devices (768px dan di bawahnya) */
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: left;
+    }
+
+    .hamburger {
+        display: inline;
+        position: absolute;
+        right: 0px;
+
+
+    }
+
+    .logo-container {
+        position: relative;
+        left: 20px;
+
+    }
+
+    .section-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img_responsif {
+        display: block;
+    }
+
+    .hero {
+        display: none;
+    }
+
+    .left-content {
+        order: 2;
+        margin: 30px 0px 20px 0px;
+        justify-content: center;
+        padding: 0px 30px 0px 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .right-content {
+        order: 1;
+    }
+
+    .header-text {
+        order: 2;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .header-text h2 {
+        font-size: 20px;
+        height: fit-content;
+    }
+
+    .header-text p {
+        font-size: 15px;
+        margin: 0px 0px 2px 0px;
+        padding-left: 30px;
+
+    }
+
+    .description-header-text {
+        margin: 0px 0px 2px 0px;
+    }
+
+    .count-content {
+        gap: 50px;
+        margin-top: 0px;
+        justify-content: center;
+        order: 1;
+
+    }
+
+    .item {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
+    .desc_keunggulan {
+        width: fit-content;
+    }
+
+    .section2,
+    .section3,
+    .section4,
+    .section5,
+    .section6,
+    .section7 {
+        margin-top: 100px;
+    }
+
+}
