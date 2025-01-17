@@ -1,0 +1,128 @@
+body {
+    background-color: #F2F2F2;
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+}
+
+.routes {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.routes a {
+    color: #2C2C2C;
+}
+
+.img_routes_back {
+    width: 20px;
+}
+
+.img_routes {
+    width: 10px;
+}
+
+.list_cart {
+    margin: 10px;
+    padding: 10px 50px 10px 50px;
+}
+
+.card_cart {
+    width: 100%;
+    border-radius: 20px;
+    border: 0.5px solid #B4B4B4;
+}
+
+.above {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #2C2C2C;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+
+}
+
+.above_right {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.above_left {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.title_product_cart h4 {
+    font-weight: 600;
+}
+
+.delete button,
+.edit button {
+    background-color: none;
+    border: none;
+    color: #fff;
+    background-color: #2C2C2C;
+}
+
+.delete {
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+
+.edit {
+    padding-left: 20px;
+}
+
+.above_left input {
+    width: 20px;
+    height: 20px;
+}
+
+.below {
+    padding: 20px;
+    display: flex;
+}
+
+.img_cart img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.spek_color {
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+}
+
+.descrip_product_cart {
+    padding-left: 20px;
+}
+
+.component_spek_product {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.container-size {
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #929292;
+    text-align: center;
+
+}
+
+.container-size a {
+    text-decoration: none;
+    color: #000;
+    /* font-weight: 700; */
+
+}

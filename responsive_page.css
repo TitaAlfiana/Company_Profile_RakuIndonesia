@@ -5,7 +5,19 @@
     }
 
     .navbar {
-        justify-content: left;
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+        background-color: #fff;
+        gap: 50px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .search {
+        text-align: right;
+        padding-right: 20px;
     }
 
     .hamburger {
@@ -30,6 +42,8 @@
 
     .img_responsif {
         display: block;
+        width: 100%;
+        height: auto;
     }
 
     .hero {
@@ -57,6 +71,10 @@
         flex-direction: row;
         justify-content: center;
 
+    }
+
+    .logo-container img {
+        width: 140px;
     }
 
     .header-text h2 {
