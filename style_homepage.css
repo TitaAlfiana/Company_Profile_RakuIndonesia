@@ -6,7 +6,7 @@ body {
 
 .navbar {
     display: grid;
-    grid-template-columns: 2.5fr 5fr 1fr;
+    grid-template-columns: 5fr 9fr 2fr;
     justify-content: center;
     background-color: #fff;
     gap: 30px;
@@ -154,8 +154,10 @@ h4 {
 }
 
 .number-content {
-    width: 150px;
-    height: 50px;
+    max-width: 150px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
     text-align: center;
     justify-content: center;
     border-radius: 80px;
@@ -176,6 +178,26 @@ h4 {
     width: 150px;
     font-size: 14px;
     margin-top: 10px;
+}
+
+.desc_admin {
+    margin-top: 30px;
+}
+
+.desc_knock {
+    margin-top: 50px;
+}
+
+.desc_note {
+    margin-top: 38px;
+}
+
+.desc_car {
+    margin-top: 51px;
+}
+
+.desc_custom {
+    margin-top: 40px;
 }
 
 .section2,
@@ -219,7 +241,8 @@ h4 {
 }
 
 .item img {
-    width: 55px;
+    max-width: 55px;
+    width: 100%;
 }
 
 .prev,
@@ -237,10 +260,6 @@ h4 {
     left: 40px;
 }
 
-.unggul_Slide,
-.slide_listProduct {
-    display: none;
-}
 
 .prev img,
 .next img {
@@ -253,8 +272,9 @@ h4 {
     justify-content: right;
 }
 
-.color_product span {
+.color_product div {
     width: 10px;
+    height: 10px;
     border-radius: 100%;
     padding: 15px;
     margin-right: 5px;
@@ -270,14 +290,16 @@ h4 {
 }
 
 .image_product img {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .card_product {
     height: auto;
-    width: 300px;
+    max-width: 300px;
     border-radius: 20px;
     /* box-shadow: 3px 3px 4px #888888; */
     border: 0.5px solid #c8c7c7;
@@ -325,8 +347,8 @@ h4 {
 }
 
 .list_product {
-    padding-top: 40px;
-    justify-content: center;
+    padding: 40px 40px 0px 40px;
+    justify-content: left;
     display: flex;
     flex-direction: row;
     gap: 28px;
@@ -337,12 +359,18 @@ h4 {
     color: #929292;
 }
 
+.rating_product img {
+    max-width: 30px;
+    max-height: 30px;
+    width: 100%;
+    height: auto;
+}
 
 .rating_product {
     display: flex;
     flex-direction: row;
     background-color: #2C2C2C;
-    padding: 5px;
+    padding: 8px 5px 5px 10px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 100px;
@@ -373,7 +401,7 @@ h4 {
 }
 
 .leftcontent_event {
-    width: 50%;
+    width: 100%;
 }
 
 .event_content {
@@ -386,12 +414,14 @@ h4 {
 .imgEvent {
     position: absolute;
     bottom: 0px;
-    width: 700px;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
 }
 
 .rightcontent_event {
     color: #fff;
-    width: 600px;
+    width: 90%;
     padding-left: 30px;
 }
 
@@ -425,7 +455,7 @@ h4 {
 }
 
 .leftcontent_galeri {
-    width: 50%;
+    width: 100%;
     padding: 30px;
     color: #fff;
 }
@@ -435,8 +465,12 @@ h4 {
 }
 
 .desc_content {
-    width: 90%;
+    width: 80%;
     margin-top: 50px;
+}
+
+.desc_content h5 h2 p {
+    margin-right: 100px;
 }
 
 .button3 {
@@ -459,7 +493,9 @@ h4 {
 }
 
 .img_galeri img {
-    width: 800px;
+    max-width: 1500px;
+    width: 100%;
+    height: auto;
 }
 
 .nextgaleri {
@@ -503,7 +539,8 @@ h4 {
 }
 
 .card_testimoni {
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
 }
 
 .desc_user {
@@ -682,6 +719,11 @@ footer {
     margin-top: 80px;
     padding-left: 70px;
 
+}
+
+.descrip_address p {
+    max-width: 500px;
+    width: 100%;
 }
 
 .rightcontent_footr {
