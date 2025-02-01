@@ -432,8 +432,7 @@ h4 {
 .button2 {
     margin-top: 50px;
     justify-content: center;
-    text-align: center;
-
+    text-align: left; 
 }
 
 .button_hubungi {
