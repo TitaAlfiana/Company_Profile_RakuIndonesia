@@ -1,12 +1,12 @@
+html,
 body {
-    background-color: #F2F2F2;
     font-family: "Plus Jakarta Sans", serif;
     font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 
-.productpage {
-    display: flex;
-}
 
 .sidebar {
     width: 300px;
@@ -89,23 +89,10 @@ body {
     width: 80%;
     padding-bottom: 40px;
     margin-top: 10px;
-    /* height: 800px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    /* overflow-x: hidden;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    scroll-padding: 10px; */
-
 }
 
-.list_productPage {
-    height: 550px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
-    scroll-padding: 10px;
-}
 
 .search_bar {
     padding: 30px;
@@ -117,6 +104,14 @@ body {
 }
 
 .list_productPage {
+    height: 550px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-padding: 10px;
+}
+
+.list_productPage {
     padding: 0px 30px 30px 30px;
     display: grid;
     row-gap: 25px;
@@ -125,8 +120,6 @@ body {
 }
 
 .card_product_pp {
-    height: fit-content;
-    width: fit-content;
     border-radius: 20px;
     /* box-shadow: 3px 3px 4px #888888; */
     border: 0.5px solid #c8c7c7;
@@ -199,7 +192,6 @@ body {
     color: #929292;
 }
 
-
 .rating_product_pp {
     display: flex;
     flex-direction: row;
@@ -214,4 +206,53 @@ body {
     position: absolute;
     top: 0%;
     right: 0%;
+}
+
+@media (min-width: 769px) {
+    .productpage {
+        display: flex;
+    }
+
+    .card_product_pp {
+        height: fit-content;
+        width: fit-content;
+    }
+
+}
+
+@media (max-width: 769px) {
+    .sidebar {
+        display: none;
+    }
+
+    .list_productPage {
+        display: grid;
+        /* Tambahkan display: grid */
+        grid-template-columns: 1fr;
+        justify-items: center;
+        /* Menengahkan setiap item dalam grid */
+        width: 100%;
+    }
+
+    .card_product_pp {
+        width: 100%;
+        /* Agar setiap card memenuhi lebar container */
+    }
+
+    .search_bar {
+        width: 100%;
+    }
+
+    .search_bar input {
+        width: 100%;
+    }
+
+    .productpage {
+        margin: 0px;
+        padding: 0px;
+    }
+    .right_contentProduct{
+        justify-content: center;
+        width: 100%;
+    }
 }
