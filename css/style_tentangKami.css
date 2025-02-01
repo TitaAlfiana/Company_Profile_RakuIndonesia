@@ -1,41 +1,14 @@
-body {
+html, body {
     font-family: "Plus Jakarta Sans", serif;
     font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .bg_img img {
     width: 100%;
     height: auto;
-}
-
-.progres {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    gap: 40px;
-    top: 580px;
-    left: 300px;
-
-}
-
-.card_progres {
-    width: 300px;
-    background-color: #fff;
-    border-radius: 30px;
-    padding: 30px;
-    justify-content: center;
-    text-align: center;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-
-}
-
-.text_besar {
-    display: flex;
-    padding-left: 40px;
-}
-
-.map_tentangkami {
-    margin-top: 300px;
 }
 
 .map_content {
@@ -48,10 +21,7 @@ body {
     display: none;
 }
 
-.testimoni,
-.partner_section {
-    margin-top: 200px;
-}
+
 
 .slide_testimoni {
     justify-content: center;
@@ -62,7 +32,7 @@ body {
     margin-top: 20px;
 }
 
-.title_testioni,
+.title_testimoni, .title_tentangkami
 .title_partner {
     text-align: center;
 }
@@ -136,4 +106,62 @@ body {
 .logo_slide {
     margin-top: 20px;
 
+}
+
+.achivment-text {
+    margin-left: 15px;
+    padding-top: 80px; 
+}
+
+.text_besar p{
+    font-size: 26px; 
+    font-weight: 700;
+}
+
+.testimoni,
+.partner_section {
+    margin-top: 100px;
+}
+
+.text_besar p{
+    font-size: 20px; 
+    font-weight: 700;
+}
+
+@media (min-width: 769px) {
+
+    .testimoni,
+    .partner_section {
+        margin-top: 200px;
+    }
+
+    .achivment-text {
+        text-align: center;
+        margin: 50px;
+        padding-top: 80px;
+    } 
+
+    .text_besar p{
+        font-size: 40px; 
+        font-weight: 700;
+    }
+    #tekstentangkami{
+        display: none; 
+    }
+     
+
+}
+
+@media (max-width: 769px) {
+    .achivment-text .col-md-4{
+        margin-top: 10px;
+    }
+
+    #tekstentangkami{
+        display: block;
+    }
+
+    .achivment-text .row{
+        margin-top: 30px;
+    }
 }
