@@ -1,8 +1,11 @@
-body {
-    background-color: #F2F2F2;
+html, body {
     font-family: "Plus Jakarta Sans", serif;
     font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
+
 
 .routes {
     display: flex;
@@ -125,4 +128,18 @@ body {
 .status_event_comingsoon h5 {
     color: #fff;
     font-size: 18px;
+}
+
+@media (max-width: 769px) {
+    .container_list_event {
+        grid-template-columns: 1fr; /* Mengubah tata letak menjadi satu kolom */
+    }
+
+    .card_event {
+        width: 100%; /* Agar kartu menyesuaikan dengan lebar container */
+    }
+
+    .img_event img {
+        width: 100%; /* Agar gambar dalam kartu juga menyesuaikan */
+    }
 }
