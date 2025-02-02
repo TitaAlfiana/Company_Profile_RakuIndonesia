@@ -40,10 +40,31 @@
             </div>
         </div>
     </nav>
+
+
     <main>
 
+        <!-- Modal Search --> 
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="searchModalLabel">Cari</h5>
+                  <button type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <input type="text" class="form-control" placeholder="Cari...">
+                </div>
+              </div>
+            </div>
+          </div>
+  
+
+
         <section class="section_routes">
-            
+
             <div class="routes">
                 <div><a href="#" class="routes_btn"><img src="image/back.png" alt="" class="img_routes_back"></a>
                 </div>
@@ -241,6 +262,39 @@
         </section>
 
     </main>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const searchButton = document.getElementById("search");
+          const searchModal = document.getElementById("searchModal");
+      
+          searchButton.addEventListener("click", function (event) {
+            event.preventDefault();
+            searchModal.classList.add("show");  
+            searchModal.style.display = "block";  
+            document.body.classList.add("modal-open");  
+          });
+       
+          document.querySelector("#searchModal .close").addEventListener("click", function () {
+            searchModal.classList.remove("show");
+            searchModal.style.display = "none";
+            document.body.classList.remove("modal-open");
+          });
+       
+          searchModal.addEventListener("click", function (event) {
+            if (event.target === searchModal) {
+              searchModal.classList.remove("show");
+              searchModal.style.display = "none";
+              document.body.classList.remove("modal-open");
+            }
+          });
+        });
+      </script>
+      
+    
+      
+
+
+</body>  
 </html>
