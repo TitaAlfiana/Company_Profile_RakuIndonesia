@@ -439,8 +439,7 @@ h4 {
 }
 
 .button_hubungi {
-    padding: 8px;
-    text-align: center;
+    padding: 8px; 
     text-decoration: none;
     background-color: #ffffff;
     color: #000000;
@@ -477,8 +476,7 @@ h4 {
 
 .button3 {
     margin-top: 50px;
-    justify-content: center;
-    text-align: center;
+    justify-content: center; 
 
 }
 
@@ -635,6 +633,7 @@ h4 {
     gap: 68px;
 }
 
+
 .partner_img {
     display: none;
 }
@@ -757,4 +756,24 @@ footer {
 
 .img_cpeverypage img {
     width: 55px;
+}
+ 
+.imgRealEvent{
+    width: 100%;
+    height: auto;
+}
+
+.section6{
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto; 
+    overflow-x: hidden;
+    margin-top: 200px;;
+}
+
+@media (max-width: 769px) {
+.imgRealEvent{ 
+    position: relative;
+}
 }
