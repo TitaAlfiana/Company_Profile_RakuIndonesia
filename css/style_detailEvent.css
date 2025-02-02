@@ -1,7 +1,9 @@
-body {
-    background-color: #F2F2F2;
+html, body {
     font-family: "Plus Jakarta Sans", serif;
     font-optical-sizing: auto;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .routes {
@@ -37,7 +39,7 @@ body {
     padding: 10px;
     background-color: #720705;
     border: 3px solid #fff;
-    color: #fff;
+    color: #fff; 
     font-size: 15px;
     border-radius: 20px;
     font-weight: 500;
@@ -128,4 +130,84 @@ body {
 .sosmed a {
     text-decoration: none;
     color: #000000;
+}
+
+
+@media (min-width: 769px) {
+    #desktop-title {
+        display: block;
+    }
+
+    #mobile-title {
+        display: none;
+    }
+ 
+}
+
+@media (max-width: 769px) {
+    .content_detailEvent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .background_abu {
+        height: 250px; /* Kurangi tinggi agar lebih pas di mobile */
+        padding: 20px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .img_poster_event {
+        position: relative; /* Tidak absolute di mobile agar tetap di atas */
+        top: -50px; /* Angkat sedikit ke atas */
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_poster_event img {
+        width: 200px; 
+    }
+
+    .inikontennya {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .descrip_event {
+        padding-right: 0;
+    }
+
+    .descrip_detail {
+        padding-left: 0;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    /* Sembunyikan desktop title & tampilkan mobile title */
+    #desktop-title {
+        display: none;
+    }
+
+    #mobile-title {
+        display: block;
+    }
+
+     .descrip_detail p{
+        text-align: justify;
+     } 
+     
+     .title_detail_event{
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 25px;
+     }
+
+     .title_detail_event h2 {
+        font-size: 20px;
+        padding-left: 10px;
+        overflow-wrap: break-word;
+    }
 }
