@@ -152,15 +152,13 @@ html, body {
     }
 
     .background_abu {
-        height: 250px; /* Kurangi tinggi agar lebih pas di mobile */
-        padding: 20px;
-        text-align: center;
-        padding-left: 0;
+         display: none;
     }
 
     .img_poster_event {
-        position: relative; /* Tidak absolute di mobile agar tetap di atas */
-        top: -50px; /* Angkat sedikit ke atas */
+        margin-top: 100px;
+        position: relative;  
+        top: -50px; 
         left: 0;
         width: 100%;
         display: flex;
@@ -172,7 +170,7 @@ html, body {
     }
 
     .inikontennya {
-        padding: 20px;
+        padding: 10px; 
         text-align: center;
     }
 

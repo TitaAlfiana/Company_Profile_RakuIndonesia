@@ -47,9 +47,7 @@ html, body {
 } */
 
 
-.logo-img img {
-    width: 160px;
-}
+
 
 .nav ul {
     display: flex;
@@ -772,8 +770,17 @@ footer {
     margin-top: 200px;;
 }
 
+@media (min-width: 769px) {
+    .logo-img img {
+        width: 160px;
+    }
+}
+
 @media (max-width: 769px) {
 .imgRealEvent{ 
     position: relative;
+}
+.logo-img img {
+    width: 120px;
 }
 }
